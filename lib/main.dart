@@ -77,6 +77,18 @@ class ImageDisplayPage extends StatelessWidget {
               ),
               SizedBox(height: 15),
                // The Image.network widget is wrapped in a Container to apply a border radius and box shadow.
+              ClipOval(
+                // borderRadius: BorderRadius.circular(20),
+                child: Image.network(
+                  'https://c4.wallpaperflare.com/wallpaper/341/779/779/pokemon-pokemon-the-movie-the-power-of-us-chansey-pokemon-eevee-pokemon-wallpaper-thumb.jpg',
+                  // The path to your local asset
+                  width: double.infinity,
+                  height: 200,
+                  fit: BoxFit.cover, // Ensures the image covers the area
+                  alignment: Alignment.center,
+                ),
+              ),
+              SizedBox(height: 15),
               Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
@@ -84,17 +96,15 @@ class ImageDisplayPage extends StatelessWidget {
                   boxShadow: [
                     BoxShadow(
                       color: Colors.black12.withValues(alpha: 0.5),
-                      spreadRadius: 5,
-                      blurRadius: 7,
-                      offset: const Offset(
-                        0,
-                        3,
-                      ), // Controls the shadow position
+                      spreadRadius: 10,
+                      blurRadius: 10,
+                      offset: const Offset(2,3) // Controls the shadow position
                     ),
                   ],
                 ),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(20),
+                child:
+                ClipRRect(
+                  // borderRadius: BorderRadius.circular(20),
                   child: Image.network(
                     'https://c4.wallpaperflare.com/wallpaper/341/779/779/pokemon-pokemon-the-movie-the-power-of-us-chansey-pokemon-eevee-pokemon-wallpaper-thumb.jpg',
                     // The path to your local asset
