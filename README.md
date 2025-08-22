@@ -49,6 +49,7 @@ flutter run
 
 ## Screenshots
 
-<img width="1280" height="2856" alt="flutter_01" src="https://github.com/user-attachments/assets/f8c4fc0e-2303-4523-9ed5-566dd25b8b15" />
+<img width="1440" height="1080" alt="app_screenshot" src="https://github.com/user-attachments/assets/b200d139-8b40-40b9-a8a1-543db5b810f4" />
+
 
 
