@@ -49,5 +49,5 @@ flutter run
 
 ## Screenshots
 
-![App Screenshot]("https://github.com/AlpitDev26/image_application/blob/main/flutter_01.png")
+![App Screenshot]("Uploading "flutter_01.png")
 
